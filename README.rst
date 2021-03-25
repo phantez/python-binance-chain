@@ -70,6 +70,13 @@ Quick Start
 
 .. code:: bash
 
+    # debian stable home install
+    sudo apt install build-essential automake pkg-config libtool libffi-dev libgmp-dev libsecp256k1-0 libsecp256k1-dev
+    sudo apt install python3-websockets python3-yarl python3-aiohttp python3-ujson python3-protobuf python3-cffi python3-mnemonic
+    python3 setup.py install --user
+
+.. code:: bash
+
     pip install python-binance-chain
 
 If having issues with secp256k1 check the `Installation instructions for the sec256k1-py library <https://github.com/ludbb/secp256k1-py#installation>`_
